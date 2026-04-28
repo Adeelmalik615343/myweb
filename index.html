@@ -91,15 +91,68 @@
   </div>
 </nav>
 
+  <!-- Ticker -->
+  <div class="site-ticker bg-primary text-white py-2">
+    <div class="container overflow-hidden">
+      <div class="ticker-track" aria-label="Service highlights ticker">
+        <span>20+ premium websites launched</span>
+        <span>85% faster page speed for clients</span>
+        <span>500+ leads generated via ads</span>
+        <span>Shopify, WordPress, React & Google Ads</span>
+        <span>20+ premium websites launched</span>
+        <span>85% faster page speed for clients</span>
+        <span>500+ leads generated via ads</span>
+        <span>Shopify, WordPress, React & Google Ads</span>
+      </div>
+    </div>
+  </div>
+
   <!-- Hero Section -->
-<section class="hero-section d-flex align-items-center justify-content-center text-white text-center" id="hero">
-  <div class="overlay"></div>
-  <div class="content position-relative z-1" data-aos="zoom-in">
-    <h1 class="display-4 fw-bold">Smart Websites. Powerful Ads. Real Results.</h1>
-    <p class="lead mt-3 mb-4">Get custom websites and digital campaigns tailored for your success.</p>
-    <a href="#contact" class="btn btn-primary px-4 py-2">Get a Free Quote</a>
+<section class="hero-section position-relative text-white" id="hero">
+  <div class="hero-overlay"></div>
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="hero-content d-flex flex-column align-items-center justify-content-center text-center">
+          <h1 class="display-4 fw-bold">Smart Websites. Powerful Ads. Real Results.</h1>
+          <p class="lead mt-4 mb-4">Get custom websites and digital campaigns tailored for your success.</p>
+          <a href="#contact" class="btn btn-primary btn-lg px-5">Get a Free Quote</a>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="hero-content d-flex flex-column align-items-center justify-content-center text-center">
+          <h1 class="display-4 fw-bold">Build your brand with premium design.</h1>
+          <p class="lead mt-4 mb-4">Mobile-first websites, high-converting landing pages, and fast launch timelines.</p>
+          <a href="#services" class="btn btn-outline-light btn-lg px-5">Explore Services</a>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="hero-content d-flex flex-column align-items-center justify-content-center text-center">
+          <h1 class="display-4 fw-bold">Scale faster with expert ad campaigns.</h1>
+          <p class="lead mt-4 mb-4">Facebook, Instagram, YouTube and Google Ads optimized for ROI.</p>
+          <a href="#portfolio" class="btn btn-light btn-lg px-5">See Our Work</a>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="Previous slide">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next" aria-label="Next slide">
+      <span class="carousel-control-next-icon"></span>
+    </button>
   </div>
 </section>
+
 <!-- Services Section -->
 <section class="services-section py-5" id="services">
   <div class="container text-center" data-aos="fade-up">
@@ -468,17 +521,7 @@
 
 
 
-</script>
-
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/08d57f6c21cdccbb107068cc1d393824/invoke.js"></script>
-
-
-<script async="async" data-cfasync="false" src="//pl27307493.profitableratecpm.com/6df93022d69a178f31910ef0cc2d9b7e/invoke.js"></script>
-<script type="text/javascript" src="//www.highperformanceformat.com/08d57f6c21cdccbb107068cc1d393824/invoke.js"></script>
-
-  <script>
-    AOS.init();
+    AOS.init({ once: true });
   </script>
 </body>
 </html>
