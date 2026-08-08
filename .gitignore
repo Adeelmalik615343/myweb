@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env
+.env.local
+.env.development
+.env.production
+package-lock.json
+npm-debug.log*
+.DS_Store
+app-local-backup/
+dist/
+build/
